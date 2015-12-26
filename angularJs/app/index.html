@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>AngularJs</title>
+    <meta name="description" content="Copyright V1.9.1.3">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body ng-app="app">
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    Header Testing
+                </div>
+            </div>
+            <div class="panel-body">
+                <div ng-view>This is The {{ step }} Step</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="scripts/angular/app.js"></script>
+    <script type="text/javascript" src="scripts/angular/controller.js"></script>
+</body>
+</html>
